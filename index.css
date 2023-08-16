@@ -59,3 +59,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.top-res-btn
+{
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+}

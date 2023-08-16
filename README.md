@@ -17,3 +17,24 @@ Namaste React
  - Diagostics
  - Error handling
  - HTTPs
+
+
+ Namaste Food App
+
+
+ /** 
+* Header 
+* - Logo
+* - Nav Items
+* Body
+* - Search
+* - Restaurant Container
+*   - Restaurant Card
+*       - Image
+*       - Name of Restaurant, star, Cusine, delivery time
+* Footer 
+* - CopyRight
+* - Links
+* - Address
+* - Contact
+*/
