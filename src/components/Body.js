@@ -1,7 +1,9 @@
 import RestaurantCard from "./RestaurantCard.js"
 import restList from "../utils/cardData.js"
 import { useEffect, useState } from "react"
+import { CARD_DATA } from "../utils/contants.js"
 import Shimmer from "./Shimmer.js"
+import { Link } from "react-router-dom"
 
 const Body = () => {
 
@@ -10,22 +12,23 @@ const Body = () => {
     const [filterRes, setFilterRes] = useState([]);
     const [searchText, useSearchText] = useState("");
 
-
     useEffect(() => {
         fetchData();
     }, []);
 
     const fetchData = async () => {
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.971598700000001&lng=77.59288900157468&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const data = await fetch(CARD_DATA);
         const json = await data.json();
         // Optional Chaining "?"
         setlistOfRes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilterRes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-        // console.log("listOfRes", listOfRes)
+        console.log("listOfRes", json)
     }
 
+    if (listOfRes.length === 0) return <Shimmer />
+
     // Conditional Rendering
-    return listOfRes.length === 0 ? <Shimmer /> : (
+    return (
         <div className="body">
             <input type="text" className="filter-box" onChange={(event) => {
                 useSearchText(event.target.value);
@@ -44,7 +47,7 @@ const Body = () => {
 
             <div className="res-container">
                 {filterRes.map((resIterate) => (
-                    <RestaurantCard key={resIterate.info.id} resData={resIterate} />
+                    <Link key={resIterate.info.id} to={"/restaurantmenu/" + resIterate.info.id}> <RestaurantCard resData={resIterate} /></Link>
                 ))}
             </div>
         </div>

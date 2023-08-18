@@ -1,3 +1,6 @@
+a {
+  text-decoration: none !important;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -37,6 +40,7 @@
   transition: all 0.3s ease;
   margin: 5px;
   font-family: "Graphik";
+  height: 450px;
 }
 .res-card:hover {
   cursor: pointer;
@@ -70,8 +74,9 @@
   margin: 10px;
 }
 .login-btn {
-  height: 2vw;
   cursor: pointer;
+  height: 2.2vw;
+  width: 6vw;
 }
 
 .search-btn {
