@@ -1,9 +1,14 @@
-import { useState } from "react"
+import { useContext, useState } from "react"
 import { LOGO_URL } from "../utils/contants"
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
+import UserContext from "../utils/UserContext";
 
 const Header = () => {
     const [btnLogin, useBtnLogin] = useState("Login");
+    const onlineStatus = useOnlineStatus();
+
+    const { loggedInUser } = useContext(UserContext);
 
     // ("Header Called");
     // If no dependency array => useEffect is called on every render
@@ -16,22 +21,25 @@ const Header = () => {
 
 
     return (
-        <div className="header">
-            <div className="logo-container">
-                <img className="logo" src={LOGO_URL} />
+        <div className="flex justify-between bg-orange-100 py-2 shadow-lg">
+            <div className="w-24 px-4">
+                <img src={LOGO_URL} />
             </div>
-            <div className="nav-items">
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About Us</Link></li>
-                    <li><Link to="/contact">Contact Us</Link></li>
-                    <li>Cart</li>
-                    <button className="login-btn" onClick={() => {
+            <div className="flex items-center px-4">
+                <ul className="flex">
+                    <li className="px-2">Status: {onlineStatus ? "✅" : "🔴"}</li>
+                    <li className="px-2"><Link to="/">Home</Link></li>
+                    <li className="px-2"><Link to="/about">About Us</Link></li>
+                    <li className="px-2"><Link to="/contact">Contact Us</Link></li>
+                    <li className="px-2"><Link to="/grocery">Grocery</Link></li>
+                    <li className="px-2">Cart</li>
+                    <button className="bg-stone-500 text-white px-2 rounded mx-2" onClick={() => {
                         btnLogin === "Login" ?
                             useBtnLogin("Logout")
                             :
                             useBtnLogin("Login")
                     }}>{btnLogin}</button>
+                    <li className="px-2">{loggedInUser}</li>
                 </ul>
             </div>
 
