@@ -2,6 +2,7 @@ import CategoryList from "./CategoryList";
 
 const RestaurantCategory = ({ resCatogoryList, showItems, setShowIndex }) => {
 
+
     const accordianClick = () => {
         setShowIndex();
         // setIndexBoolean();
@@ -13,7 +14,7 @@ const RestaurantCategory = ({ resCatogoryList, showItems, setShowIndex }) => {
                 <span>&darr;</span>
             </div>
             <div className="menu-content w-9/12 mx-auto">
-                {showItems && <CategoryList key={resCatogoryList.title} catogoryListData={resCatogoryList} />}
+                {showItems && <CategoryList key={resCatogoryList.title} catogoryListData={resCatogoryList.itemCards} />}
             </div>
         </div>
     )

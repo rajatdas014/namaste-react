@@ -7,6 +7,9 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import Practice from "./components/Practice"
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import UserContext from "./utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./reducers/appStore";
+import Cart from "./components/Cart";
 
 
 const About = lazy(() => import("./components/About"));
@@ -19,19 +22,21 @@ const AppLayout = () => {
 
     useEffect(() => {
         const getData = {
-            name: "Astronaut",
+            name: "Rajat",
         };
         setUserName(getData.name);
     }, [])
 
     return (
-        <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-            <div className="app">
-                {/* <Practice /> */}
-                <Header />
-                <Outlet />
-            </div>
-        </UserContext.Provider>
+        <Provider store={appStore}>
+            <UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+                <div className="app">
+                    {/* <Practice /> */}
+                    <Header />
+                    <Outlet />
+                </div>
+            </UserContext.Provider>
+        </Provider>
     )
 }
 
@@ -59,6 +64,10 @@ const appRoute = createBrowserRouter([
             {
                 path: "/restaurantmenu/:resId",
                 element: <RestaurantMenu />,
+            },
+            {
+                path: "/Cart",
+                element: <Cart />
             },],
         errorElement: <Error />,
     },

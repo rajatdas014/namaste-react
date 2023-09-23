@@ -52,10 +52,10 @@ const Body = () => {
                     const filteredList = listOfRes.filter((result) => result.info.avgRating > 4.2)
                     setFilterRes(filteredList)
                 }}>Top Rated Restaurants</button>
-                <div className="fle m-2 ml-10">
+                {/* <div className="fle m-2 ml-10">
                     <label htmlFor="">Logged In User: </label>
                     <input type="text" className="border-black border px-2" value={loggedInUser} maxLength={15} onChange={(e) => { setUserName(e.target.value) }} />
-                </div>
+                </div> */}
             </div>
             <div className="flex flex-wrap m-2">
                 {filterRes.map((resIterate) => (
