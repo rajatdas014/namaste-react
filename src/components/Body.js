@@ -20,11 +20,11 @@ const Body = () => {
     const fetchData = async () => {
         const data = await fetch(CARD_DATA);
         const json = await data.json();
-        ///console.log("Json Data", json)
+        // console.log("Json Data", json)
         setListOfRes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
         setFilterRes(json?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     }
-    //console.log("List of Restaurants", listOfRes);
+    // console.log("List of Restaurants", listOfRes);
 
     const { loggedInUser, setUserName } = useContext(UserContext);
 
@@ -40,7 +40,7 @@ const Body = () => {
     return (
         <div className="body">
             <div className="flex items-center">
-                <input type="text" className="border border-solid border-black my-4 mx-2" onChange={(event) => {
+                <input type="text" data-testid="searchInput" className="border border-solid border-black my-4 mx-2" onChange={(event) => {
                     useSearchText(event.target.value);
                 }} value={searchText} />
                 <button className="bg-green-100 px-2 py-1 rounded-md" onClick={() => {

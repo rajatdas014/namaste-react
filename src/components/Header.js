@@ -38,13 +38,15 @@ const Header = () => {
                     <li className="px-2"><Link to="/contact">Contact Us</Link></li>
                     <li className="px-2"><Link to="/grocery">Grocery</Link></li>
                     <li className="px-2"><Link to="/Cart">🛒({cartItems.length})</Link></li>
-                    {/* <button className="bg-stone-500 text-white px-2 rounded mx-2" onClick={() => {
-                        btnLogin === "Login" ?
-                            useBtnLogin("Logout")
-                            :
-                            useBtnLogin("Login")
-                    }}>{btnLogin}</button> */}
-                    <li className="px-2">{loggedInUser}</li>
+                    <div className="flex">
+                        <button className="px-2 ml-2" onClick={() => {
+                            btnLogin === "Login" ?
+                                useBtnLogin("Logout")
+                                :
+                                useBtnLogin("Login")
+                        }}>{btnLogin}</button>
+                        <li className="px-2">{loggedInUser}</li>
+                    </div>
                 </ul>
             </div>
 

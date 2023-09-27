@@ -1,0 +1,2080 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "5934",
+              "name": "Burger King",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "burger-king-koramangala",
+                "city": "bangalore"
+              },
+              "uniqueId": "f5fce768-bd55-4827-86d7-d120b95e798b",
+              "cloudinaryImageId": "e33e1d3ba7d6b2bb0d45e1001b731fcf",
+              "locality": "Koramangala",
+              "areaName": "Koramangala",
+              "costForTwo": "35000",
+              "costForTwoMessage": "₹350 for two",
+              "cuisines": ["Burgers", "American"],
+              "avgRating": 4.2,
+              "feeDetails": {
+                "restaurantId": "5934",
+                "fees": [
+                  {
+                    "name": "time"
+                  },
+                  {
+                    "name": "distance",
+                    "fee": 3500
+                  },
+                  {
+                    "name": "special"
+                  }
+                ],
+                "totalFee": 3500,
+                "icon": "v1648635511/Delivery_fee_new_cjxumu",
+                "message": "2 kms | ₹35 Delivery fee will apply"
+              },
+              "parentId": "166",
+              "avgRatingString": "4.2",
+              "totalRatingsString": "10K+ ratings",
+              "sla": {
+                "restaurantId": "5934",
+                "deliveryTime": 18,
+                "minDeliveryTime": 18,
+                "maxDeliveryTime": 18,
+                "lastMileTravel": 2.1,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1,
+                "slaString": "18 MINS",
+                "lastMileTravelString": "2.0 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2023-09-27 05:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get every item under 129",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item under 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item under 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹50 off | Above ₹299",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "burger-king-koramangala",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Unit No. 1, Davar Atrium, Corporation No. 118, Koramangala Industrial Area 7th Block, Bangalore 560095"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Burgers,American"
+                }
+              ],
+              "logo": "rng/md/carousel/production/pkcgpsd4df6i5ud3eyuk",
+              "totalRatings": 10000,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get every item under 129",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item under 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item under 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹50 off | Above ₹299",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ]
+              },
+              "type": "F",
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/5934"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "2 kms | ₹35 Delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648635511/Delivery_fee_new_cjxumu"
+                  },
+                  "popup": {
+                    "cta": {}
+                  },
+                  "type": "DISTANCE_FEE_NON_FOOD_LM",
+                  "enrichedText": "<b>2 kms</b> | ₹35 Delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {}
+                  }
+                }
+              ],
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {}
+                    },
+                    "linkCta": {}
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "12.9350171,77.61346657"
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 1,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "EVERY ITEM @ ₹129",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["b8f67d88-48cf-4a78-9a7b-bf5da5af8cde"],
+                      "expiryTime": "1970-01-02T03:03:44Z",
+                      "offerType": "offers",
+                      "restId": "5934",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C",
+                      "showExpiryTimer": true
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "offersFilter": {
+                        "attributes": {
+                          "displayText": "Offer"
+                        }
+                      },
+                      "topRatedFilter": {}
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Rs 129 Deal Of The Day",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842548",
+                              "name": "2 Med Fries.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "The perfect crispy partner.",
+                              "imageId": "vhhodglyalty92qtkobl",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 23000,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "204 ratings",
+                                  "ratingCountV2": "204"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842579",
+                              "name": "BK Veggie Burger + Veg Taco.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "3003251dd361d4c0adf74bbbc9126be5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "36 ratings",
+                                  "ratingCountV2": "36"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842555",
+                              "name": "Veg Makhani Burst Burger+ Medium Peri Peri Fries.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Veg Makhani Burst Burger+ Medium Peri Peri Fries",
+                              "imageId": "sn8nuhvffvflrb9pf5e1",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "119 ratings",
+                                  "ratingCountV2": "119"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842546",
+                              "name": "Whopper Jr Veg+ Crispy Veg.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our signature veg whopper in a smaller size + Crispy veg patty  burger",
+                              "imageId": "mdf9cluo0plx8xtwbkhi",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 21900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "164 ratings",
+                                  "ratingCountV2": "164"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842541",
+                              "name": "1Crispy Veg Double Patty + 1Med Fries.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Double up the crispy veg patty burger in our best selling burger with fries on the side",
+                              "imageId": "slf6cyeqaixjqih3tm9j",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 21400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "100 ratings",
+                                  "ratingCountV2": "100"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "115625003",
+                              "name": "BK Veggie Burger + Crispy Veg Burger..",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "fa43c54f7dc66a9dac383948c30b3e33",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 20900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "215 ratings",
+                                  "ratingCountV2": "215"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842534",
+                              "name": "Crispy Chicken + Med Fries.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Crispy Chicken patty burger with fries on the side.",
+                              "imageId": "tx9dno3ojm5efz9ldwnm",
+                              "inStock": 1,
+                              "price": 20500,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "261 ratings",
+                                  "ratingCountV2": "261"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842536",
+                              "name": "Chicken Whopper.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our Signature Whopper With 7 Layers Between The Buns. Flame Grilled Chicken Patty, Fresh Onion, Crispy Lettuce, Juicy Tomatoes(seasonal), Tangy Gherkins, Creamy And Smoky Sauces With Xxl Buns. It’S Not A Burger, It’S A Whopper",
+                              "imageId": "xbcxtblwjmlj36kqkzjo",
+                              "inStock": 1,
+                              "price": 19900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "2577 ratings",
+                                  "ratingCountV2": "2577"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842569",
+                              "name": "Cappuccino (S)+ Hashbrown.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Cappuccino (S)+ Hashbrown",
+                              "imageId": "vfcad3yhueluwpumfjix",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19800,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "28 ratings",
+                                  "ratingCountV2": "28"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842588",
+                              "name": "Whopper Jr Chicken with Cheese Burger.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "3508a3fc00f82f05e64be380e04597b0",
+                              "inStock": 1,
+                              "price": 19400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.4",
+                                  "ratingCount": "32 ratings",
+                                  "ratingCountV2": "32"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842530",
+                              "name": "Double Crispy Veg + Double Crispy Veg.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "crispy veg patty burger, our best seller! !",
+                              "imageId": "n3xekdsgny6jdboxy4xw",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19000,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "188 ratings",
+                                  "ratingCountV2": "188"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842585",
+                              "name": "Crispy Veg Double Patty Burger+Veg Crunchy Taco.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "f01c87024184fe09bf908c5c1ab9a2c9",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "52 ratings",
+                                  "ratingCountV2": "52"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842551",
+                              "name": "Mango Shake.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our signature mango thick shake.",
+                              "imageId": "e5fk28ospzzsy5a7m7hc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "93 ratings",
+                                  "ratingCountV2": "93"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842553",
+                              "name": "Chocolate Shake.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our signature chocolate thick shake.",
+                              "imageId": "iixakii4wvkq3dgmpsvc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "119 ratings",
+                                  "ratingCountV2": "119"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842584",
+                              "name": "Crispy Veg Burger+Med Fries.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "00b61e58b68eff61bf2f75a64625022f",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18500,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "16 ratings",
+                                  "ratingCountV2": "16"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842581",
+                              "name": "Crispy Chicken + Med Pepsi.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "71fca05b9224f31315d54c66c95f5e58",
+                              "inStock": 1,
+                              "price": 18500,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "20 ratings",
+                                  "ratingCountV2": "20"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842540",
+                              "name": "Crispy Chicken + Crispy Chicken.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Crispy Chicken patty burger, our best seller. Enjoy Twice.",
+                              "imageId": "kqxbihqpeimd5cxpinfn",
+                              "inStock": 1,
+                              "price": 18000,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "521 ratings",
+                                  "ratingCountV2": "521"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842532",
+                              "name": "Veg Whopper.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our signature veg patty Whopper.",
+                              "imageId": "sgnlylsa7gqijo2qydq3",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "1139 ratings",
+                                  "ratingCountV2": "1139"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842589",
+                              "name": "Whopper Jr Veg with Cheese Burger.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "6fbac1a74fc40652e9b8d88d944d74a2",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "22 ratings",
+                                  "ratingCountV2": "22"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842582",
+                              "name": "Crispy Veg + Med Pepsi.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "4de0352ff4142c8606b951301eba86b5",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 16500,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842538",
+                              "name": "Crispy Veg + Crispy Chicken.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our best sellers - crispy veg patty burger and crispy chicken patty burger.",
+                              "imageId": "vdvl37f0zttykfxrcweh",
+                              "inStock": 1,
+                              "price": 16000,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "73 ratings",
+                                  "ratingCountV2": "73"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842568",
+                              "name": "Veggie Strips - 5Pcs + Chocolate Mousse Cup.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Veggie Strips - 5Pcs + Chocolate Mousse cup",
+                              "imageId": "pexbywbbp16gclzzfcog",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15800,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842567",
+                              "name": "Veggie Strips - 5Pcs + Choco Lava Cup.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Veggie Strips - 5Pcs + Choco Lava Cup",
+                              "imageId": "ixpymop2wkfiyiyj0ers",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "33 ratings",
+                                  "ratingCountV2": "33"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842554",
+                              "name": "Boneless Wings Regular.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "imageId": "qlpzsgwyrjwzd3g43iol",
+                              "inStock": 1,
+                              "price": 14900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "296 ratings",
+                                  "ratingCountV2": "296"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "110842573",
+                              "name": "Classic Cold Coffee.",
+                              "category": "Rs 129 Deal Of The Day",
+                              "description": "Our signature BK Café Coffee ice blended with milk & cream",
+                              "imageId": "spupzyvwrsv4yjegs4gf",
+                              "isVeg": 1,
+                              "price": 19900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "nextAvailableAtMessage": "Next available at 7 am, today",
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "83 ratings",
+                                  "ratingCountV2": "83"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Burger and Wrap.",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122286435",
+                              "name": "BK Chicken Double Patty. Burger",
+                              "category": "Burger and Wrap.",
+                              "description": "Our Tribute To Classic American Taste. Bk Chicken Double Patty, Garden Fresh Crispy Lettuce, Juicy Tomato(seasonal) & Our Signature Sauce",
+                              "imageId": "mvuj0ttjafdeebulhop4",
+                              "inStock": 1,
+                              "price": 17900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "28 ratings",
+                                  "ratingCountV2": "28"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122286437",
+                              "name": "BK Chicken Burger..",
+                              "category": "Burger and Wrap.",
+                              "description": "Our tribute to classic American taste. BK chicken patty, garden fresh crispy lettuce, juicy tomato (seasonal) & our signature sauce.",
+                              "imageId": "9c394429dd2ed06f5fac0305ddea1188",
+                              "inStock": 1,
+                              "price": 14900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "34 ratings",
+                                  "ratingCountV2": "34"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "109342037",
+                              "name": "Whopper Jr Veg..",
+                              "category": "Burger and Wrap.",
+                              "description": "Our signature Whopper with 7 layers between the buns in a convenient size. Extra crunchy veg Patty, fresh onion, crispy lettuce, juicy tomatoes(seasonal), tangy gherkins, creamy and smoky sauces.",
+                              "imageId": "m3gjpg0hyws00wdkfncw",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 14900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "42 ratings",
+                                  "ratingCountV2": "42"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122647937",
+                              "name": "BK Veggie Burger..",
+                              "category": "Burger and Wrap.",
+                              "description": "Our tribute to classic american taste. BK veg patty, garden fresh crispy lettuce, juicy tomato(seasonal) & our signature sauce.",
+                              "imageId": "uvfehwtz2fceyrtfjsoc",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "47 ratings",
+                                  "ratingCountV2": "47"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122286436",
+                              "name": "BK Veggie Double Patty Burger..",
+                              "category": "Burger and Wrap.",
+                              "description": "Our tribute to classic american taste. BK veg Double patty, garden fresh crispy lettuce, juicy tomato(seasonal) & our signature sauce.",
+                              "imageId": "iajmq3xmw6cg13easydh",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898950",
+                              "name": "Crispy Chicken Double Patty Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy chicken patty, onion and classic mayo sauce.",
+                              "imageId": "vfagr7gcirgouhiewq66",
+                              "inStock": 1,
+                              "price": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "1598 ratings",
+                                  "ratingCountV2": "1598"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108899970",
+                              "name": "Crispy Veg Double Patty with Cheese.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy veg Double patty, Cheese slice, fresh onion and our signature sauce.",
+                              "imageId": "ndp3akjkdainthdpugjp",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12400,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "49 ratings",
+                                  "ratingCountV2": "49"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898951",
+                              "name": "Crispy Chicken with Cheese Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy chicken patty, onion and classic mayo sauce.",
+                              "imageId": "ieec9d9wdbunnpe98vun",
+                              "inStock": 1,
+                              "price": 11500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "601 ratings",
+                                  "ratingCountV2": "601"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120332982",
+                              "name": "Crunchy Chicken Taco.",
+                              "category": "Burger and Wrap.",
+                              "description": "Crunchy Shell with chicken patty, crunchy veggies and spicy sauce.",
+                              "imageId": "kzekifdu0vakjkebcxml",
+                              "inStock": 1,
+                              "price": 11000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "86 ratings",
+                                  "ratingCountV2": "86"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122168496",
+                              "name": "Chicken Makhani Burst Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Enjoy rich makhani flavour with crispy chicken patty topped with fresh onion",
+                              "imageId": "ajxjn6rht9vc8aplkvbw",
+                              "inStock": 1,
+                              "price": 10000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "103 ratings",
+                                  "ratingCountV2": "103"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898939",
+                              "name": "Crispy Veg Double Patty Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy veg Double patty, fresh onion and our signature sauce",
+                              "imageId": "phm3t2g7v0lpczvtu6g7",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "1029 ratings",
+                                  "ratingCountV2": "1029"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108899966",
+                              "name": "Crispy Veg with Cheese Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger withcrispy veg patty, Cheese slice, fresh onion and our signature sauce.",
+                              "imageId": "wr3o7gmsgcuf1x4zwcax",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "529 ratings",
+                                  "ratingCountV2": "529"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "120332983",
+                              "name": "Veg Crunchy Taco.",
+                              "category": "Burger and Wrap.",
+                              "description": "Be ready for a crunchy, saucy, explosion. A crunchy volcano shell filled with beans & veg mix, chef's secret sauce, fresh onion & crisp lettuce.",
+                              "imageId": "424358cb32c40669f3aab9ba92d27141",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.6",
+                                  "ratingCount": "39 ratings",
+                                  "ratingCountV2": "39"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898948",
+                              "name": "Crispy Chicken Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy chicken patty, onion and classic mayo sauce.",
+                              "imageId": "mqr237klqgnu0w2pzd94",
+                              "inStock": 1,
+                              "price": 9000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "4185 ratings",
+                                  "ratingCountV2": "4185"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "101198101",
+                              "name": "Veg Makhani Burst Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Enjoy rich makhani flavour with mix veg patty topped up with fresh onion",
+                              "imageId": "rnljd0ea2zwgfbhkzwwh",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.1",
+                                  "ratingCount": "131 ratings",
+                                  "ratingCountV2": "131"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108899961",
+                              "name": "Crispy Veg Burger.",
+                              "category": "Burger and Wrap.",
+                              "description": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce",
+                              "imageId": "eqaon8guufklmil7ayhr",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 7000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "4192 ratings",
+                                  "ratingCountV2": "4192"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Sides & Beverage",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "116207880",
+                              "name": "Medium Peri Peri Fries.",
+                              "category": "Sides & Beverage",
+                              "description": "Crispy fries with peri peri spice. Hot indeed",
+                              "imageId": "mgipyyoulmma7rjwofoj",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13400,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "204 ratings",
+                                  "ratingCountV2": "204"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898963",
+                              "name": "King Fries.",
+                              "category": "Sides & Beverage",
+                              "description": "The perfect crispy partner.",
+                              "imageId": "uttwq3j7gos3thsaposd",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "1159 ratings",
+                                  "ratingCountV2": "1159"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122168498",
+                              "name": "Pepsi Medium.",
+                              "category": "Sides & Beverage",
+                              "imageId": "jjsk5itomwsjmfz3sd3b",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "104 ratings",
+                                  "ratingCountV2": "104"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122168497",
+                              "name": "Pepsi Black Medium.",
+                              "category": "Sides & Beverage",
+                              "description": "Pepsi Black",
+                              "imageId": "f8320b1b518af3ccb404687e2e185e58",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "29 ratings",
+                                  "ratingCountV2": "29"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "101999767",
+                              "name": "Veggie Strips - 5 Pcs.",
+                              "category": "Sides & Beverage",
+                              "description": "Vegetarian's favourite finger food.",
+                              "imageId": "jez2tqz2d0euumrrpvbn",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "954 ratings",
+                                  "ratingCountV2": "954"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108898965",
+                              "name": "Hashbrown.",
+                              "category": "Sides & Beverage",
+                              "description": "What every potato wants to be.",
+                              "imageId": "acabmj60n7dctjg9un5q",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 4900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "191 ratings",
+                                  "ratingCountV2": "191"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "118942160",
+                              "name": "Peri Peri Spice Mix.",
+                              "category": "Sides & Beverage",
+                              "imageId": "1200974eb60f9c4489cad469e5485498",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 2857,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "24 ratings",
+                                  "ratingCountV2": "24"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "114302965",
+                              "name": "Easy Cheesy Dip.",
+                              "category": "Sides & Beverage",
+                              "description": "Cheese & Jalapeno Sauce",
+                              "imageId": "cfxufomgselawz85bhbo",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 2381,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "62 ratings",
+                                  "ratingCountV2": "62"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122168500",
+                              "name": "Fiery Hell Dip.",
+                              "category": "Sides & Beverage",
+                              "description": "Chefs Special Spicy Sauce",
+                              "imageId": "nsqnarjlxmzioj5zotty",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 2381,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "93 ratings",
+                                  "ratingCountV2": "93"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "122168499",
+                              "name": "Herby Garlic Dip.",
+                              "category": "Sides & Beverage",
+                              "description": "Chefs Special Garlic Sauce with Herbs",
+                              "imageId": "pocqti14flqmqyqghelf",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 2381,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                }
+                              }
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11220334001415"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Burger King",
+                      "area": "Koramangala",
+                      "completeAddress": "Unit No. 1, Davar Atrium, Corporation No. 118, Koramangala Industrial Area 7th Block, Bangalore 560095"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "c365bd1e-d109-4495-9dcc-fcd179fd878f",
+  "sid": "9k05949b-554d-49b6-9308-506a376c3af5",
+  "deviceId": "103bc818-e6cc-564b-db5b-13763eec7364",
+  "csrfToken": "dwbZnWHycPwy-jOTQsOmxT2wj0bojRZ_kR0wk03c"
+}
